@@ -94,5 +94,5 @@ div.menu-bar ul ul li > a:active
 div.menu-bar ul ul li:hover > a {
 	color: White;
 	background-color: CornflowerBlue;
-
+  width: 156px;
 }
