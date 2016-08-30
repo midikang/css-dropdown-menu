@@ -15,7 +15,7 @@ div.menu-bar ul {
   height: 100%;
   width: 100%;
   list-style-type: none;
-  background-color: #fffabf;
+  background-color: DeepSkyBlue;
   overflow: visible;
 }
 
@@ -36,22 +36,16 @@ div.menu-bar li > a,:active
   padding: 0 0 0 10px;
   height: 100%;
   width: 109px;
-  border-right: 1px #5d5636 solid;
+  border-right: 1px white solid;
   line-height: 30px;
   font-family: times, serif;
 	font-size: 17px;
-	font-style: italic;
+	font-style: normal;
   text-decoration: none;
-  background-color: #fffabf;
-  color: #5d5636;
+  background-color: DeepSkyBlue;
+  color: white;
   cursor: pointer;
 }
-
-div.menu-bar ul ul li:hover > a {
-  color: #220000;
-  background-color: #eeeabe;
-}
-
 
 /* vertical sub-menus */
 div.menu-bar ul ul {
