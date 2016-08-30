@@ -43,7 +43,7 @@ div.menu-bar li > a,:active
 	font-style: normal;
   text-decoration: none;
   background-color: DeepSkyBlue;
-  color: white;
+  color: White;
   cursor: pointer;
 }
 
@@ -56,7 +56,7 @@ div.menu-bar ul ul {
 	/* vertical-menus width */
   width: 160px;
   border: 1px #666666 solid;
-  background-color: #dddddd;
+  background-color: LightSkyBlue;
 }
 
 div.menu-bar li:hover > ul {
@@ -85,21 +85,14 @@ div.menu-bar ul ul li > a:active
 	line-height: 28px;
 	background-color: transparent;
 	border: none;
-	color: #000000;
+	color: White;
   font-family: georgia, serif;
 	font-size: 11px;
 	font-style: normal;
 }
 
 div.menu-bar ul ul li:hover > a {
-	background-color: #cccccc;
-	color: #ff0000;
+	color: White;
+	background-color: CornflowerBlue;
 
-}
-
-/* an arrow on the right side of menu's folders */
-a.menu-nav:after {
-	content: "\00BB";
-	float: right;
-	margin-right: 8px;
 }
