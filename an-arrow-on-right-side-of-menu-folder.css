@@ -1,0 +1,6 @@
+/* an arrow on the right side of menu's folders */
+a.menu-nav:after {
+	content: "\00BB";
+	float: right;
+	margin-right: 8px;
+}
