@@ -103,15 +103,6 @@ div.menu-bar ul ul li:hover > a {
 
 }
 
-/* vertical sub-sub-menus */
-div.menu-bar ul ul ul {
-  /* sub-sub-menu position is relative to its parent */
-	position: absolute;
-	top: 4px;
-	left: 155px;
-	margin: 0;
-}
-
 /* an arrow on the right side of menu's folders */
 a.menu-nav:after {
 	content: "\00BB";
